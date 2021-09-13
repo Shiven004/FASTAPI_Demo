@@ -1,19 +1,19 @@
-# FASTAPI API enpoints readme
+# Instruction Manual
 ---------------------------
 
 
-## (I) Steps to reproduce the use cases with FASTAPI:
+##  I Steps to reproduce the use cases with FASTAPI:
       1. Create virtual env  using cmd - python -m venv ukufu_ven
       2. Actiavte virtual env - django_env_01\Scripts\activate
       3. Ensure python version is above 3.7 or later (Python version - 3.8)
       4. pip install -r requirements.txt
 
-## (II) Run the server with command:
+## II Run the server with command:
         uvicorn main:app --reload
 
 
 
-## (III) Testing the API end points:
+## III Testing the API end points:
 
 ### Scenerio 01 - Given a company, the API needs to return all their employees. Provide the appropriate solution if the company does not have any employees.
 
