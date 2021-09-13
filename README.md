@@ -1,2 +1,2 @@
 # UKUFU
-Ukufu Repo
+Ukufu Repository to maintain tech test code and related documentations.
