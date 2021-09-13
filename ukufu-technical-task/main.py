@@ -4,7 +4,7 @@ Decription: This utility is based on FastAPI which is a modern,
             based on standard Python type hints.
             
 Author:     Shivender Khajuria           
-Dated:      13=09-21
+Dated:      13-09-21
 Filename:   main.py
 Version:    1.0
 Purpose:    UKUFU Tech Test
