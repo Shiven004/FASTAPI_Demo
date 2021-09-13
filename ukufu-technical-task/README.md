@@ -27,4 +27,7 @@ Run this url in browser: http://127.0.0.1:8000/people/?name_01=Bonnie%20Bass&nam
 ### Scenerio 03 - Given 1 people, provide a list of fruits and vegetables they like. This endpoint must respect this interface for the output: {"username": "Ahi", "age": "30", "fruits": ["banana", "apple"], "vegetables": ["beetroot", "lettuce"]}.
 
 Run this url in browser: http://127.0.0.1:8000/food/921?
+
+### Alternatively try Interactive API docs- 
+Go to URL: http://127.0.0.1:8000/docs.
    
