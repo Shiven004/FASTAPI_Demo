@@ -2,11 +2,12 @@
 ---------------------------
 
 
-##  I Steps to reproduce the use cases with FASTAPI:
-      1. Create virtual env  using cmd - python -m venv ukufu_venv
-      2. Actiavte virtual env - django_env_01\Scripts\activate
-      3. Ensure python version is above 3.6 or later (Python version - 3.8)
-      4. Install dependencies using - pip install -r requirements.txt
+##  I Prerequisite steps before executing FASTAPI:
+      1. Create virtual env  using cmd - python -m venv ukufu_venv.      
+      2. Actiavte virtual env - django_env_01\Scripts\activate.
+      3. Ensure the folder strucure is created similar to the one here in guthub.
+      3. Ensure python version is above 3.6 or later (Python version - 3.8).
+      4. Install dependencies using - pip install -r requirements.txt.
 
 ## II Run the server with command:
         uvicorn main:app --reload
