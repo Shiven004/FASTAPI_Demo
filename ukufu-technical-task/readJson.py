@@ -16,7 +16,7 @@ Description: This module reads the data from json files present in resources dir
                   "vegetables": ["beetroot", "lettuce"]} 
 
 Author:     Shivender Khajuria           
-Dated:      13=09-21
+Dated:      13-09-21
 Filename:   readJson.py
 Version:    1.0
 Purpose:    UKUFU Tech Test
