@@ -3,16 +3,14 @@
 
 
 ##  I Prerequisite steps before executing FASTAPI:
-      1. Create virtual env  using command:- python -m venv ukufu_venv.      
-      2. Actiavte virtual env using command:- ukufu_venv\Scripts\activate.
-      3. Ensure the folder strucure is created similar to the one here in guthub.
-      3. Make sure python version is above 3.6 or later (Python version - 3.8) is installed.
-      4. Install dependencies using - pip install -r requirements.txt.
+      1. Ensure the folder strucure is created similar to the one here in github.
+      2. Create virtual env  using command:- python -m venv ukufu_venv.      
+      3. Actiavte virtual env using command:- ukufu_venv\Scripts\activate.      
+      4. Make sure python version is above 3.6 or later (Python version - 3.8) is installed.
+      5. Install dependencies using - pip install -r requirements.txt.
 
 ## II Run the server with command:
         uvicorn main:app --reload
-
-
 
 ## III Testing the API end points:
 
@@ -30,4 +28,3 @@ Run this url in browser: http://127.0.0.1:8000/food/921?
 
 ### Alternatively try Interactive API docs- 
 Go to URL: http://127.0.0.1:8000/docs.
-   
