@@ -1,9 +1,8 @@
 """
-Decription: This utility is based on fastapi FastAPI is a modern, 
+Decription: This utility is based on FastAPI which is a modern, 
             fast (high-performance), web framework for building APIs with Python 3.6+ 
             based on standard Python type hints.
-
-
+            
 Author:     Shivender Khajuria           
 Dated:      13=09-21
 Filename:   main.py
