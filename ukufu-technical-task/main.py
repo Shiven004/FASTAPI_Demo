@@ -28,13 +28,13 @@ def read_employees(company_id: int):
     emp_name = readJson.fetch_employees(company_id)   
     return {"List of Employees": emp_name} if emp_name is not None else 'No Employees found'
 
-#Reqmt_02: To get personal information of two people
+#Reqmt_02: To get personal information of two people.
 @app.get("/people/")
 async def read_people_details(name_01: str = "Hardin Bradshaw", name_02: str = "Gilbert Grant"):  
     person_01, person_02 = readJson.fetch_people_details(name_01,name_02)    
     return {"People details are": person_01 + person_02}
 
-#Reqmt_03: To fetch food data
+#Reqmt_03: To fetch food data.
 @app.get("/food/{index_id}")
 def read_food_details(index_id: int):   
     dict_food = readJson.fetch_food_details(index_id)   
