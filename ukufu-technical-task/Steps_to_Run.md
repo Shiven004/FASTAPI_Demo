@@ -17,15 +17,15 @@
 
 ### Scenerio 01 - Given a company, the API needs to return all their employees. Provide the appropriate solution if the company does not have any employees.
 
-Run this url in browser: http://127.0.0.1:8000/employees/98?
+Run this url in browser: "http://127.0.0.1:8000/employees/98?"
 
 ### Scenerio 02 - Given 2 people, provide their information (Name, Age, Address, phone) and the list of their friends in common who have brown eyes and are still alive.
 
-Run this url in browser: http://127.0.0.1:8000/people/Hardin%20Bradshaw?Gilbert%20Grant?
+Run this url in browser: "http://127.0.0.1:8000/people/Hardin%20Bradshaw?Gilbert%20Grant?"
                                              or
-                         http://127.0.0.1:8000/people/Bonnie%20Bass?Rosemary%20Hayes?
+                         "http://127.0.0.1:8000/people/Bonnie%20Bass?Rosemary%20Hayes?"
 
 ### Scenerio 03 - Given 1 people, provide a list of fruits and vegetables they like. This endpoint must respect this interface for the output: {"username": "Ahi", "age": "30", "fruits": ["banana", "apple"], "vegetables": ["beetroot", "lettuce"]}.
 
-Run this url in browser: http://127.0.0.1:8000/food/921?
+Run this url in browser: "http://127.0.0.1:8000/food/921?"
    
