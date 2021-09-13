@@ -21,9 +21,7 @@ Run this url in browser: http://127.0.0.1:8000/employees/98?
 
 ### Scenerio 02 - Given 2 people, provide their information (Name, Age, Address, phone) and the list of their friends in common who have brown eyes and are still alive.
 
-Run this url in browser: http://127.0.0.1:8000/people/Hardin%20Bradshaw?Gilbert%20Grant?
-                                             or
-                         http://127.0.0.1:8000/people/Bonnie%20Bass?Rosemary%20Hayes?
+Run this url in browser: http://127.0.0.1:8000/people/?name_01=Bonnie%20Bass&name_02=Rosemary%20Hayes
 
 ### Scenerio 03 - Given 1 people, provide a list of fruits and vegetables they like. This endpoint must respect this interface for the output: {"username": "Ahi", "age": "30", "fruits": ["banana", "apple"], "vegetables": ["beetroot", "lettuce"]}.
 
