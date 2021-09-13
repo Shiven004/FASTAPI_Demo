@@ -129,7 +129,6 @@ if __name__ == '__main__':
     l1, l2 = [], []    
     #Reqmt_02
     l1, l2 = fetch_people_details('Hardin Bradshaw','Gilbert Grant')
-    #l1, l2 = fetch_people_details_copy(1,2)
     print("Rqmt_02 data-->")
     print("l1 is :: ", l1)
     print("l2 is :: ", l2)
