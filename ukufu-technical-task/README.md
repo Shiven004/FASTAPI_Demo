@@ -4,10 +4,12 @@
 
 ##  I Prerequisite steps before executing FASTAPI:
       1. Ensure the folder strucure is created similar to the one here in github.
-      2. Create virtual env  using command:- python -m venv ukufu_venv.      
+      2. Create virtual env using command:- python -m venv ukufu_venv.      
       3. Actiavte virtual env using command:- ukufu_venv\Scripts\activate.      
       4. Make sure python version is above 3.6 or later (Python version - 3.8) is installed.
       5. Install dependencies using - pip install -r requirements.txt.
+      
+      Note:* Please note that the developement for this project is done on Windows (Win 10) platform.
 
 ## II Run the server with command:
         uvicorn main:app --reload
