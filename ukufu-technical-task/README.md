@@ -19,14 +19,17 @@
 ### Scenerio 01 - Given a company, the API needs to return all their employees. Provide the appropriate solution if the company does not have any employees.
 
 Run this url in browser: http://127.0.0.1:8000/employees/98?
+(Here 98 represents company_id associated with a company)
 
 ### Scenerio 02 - Given 2 people, provide their information (Name, Age, Address, phone) and the list of their friends in common who have brown eyes and are still alive.
 
 Run this url in browser: http://127.0.0.1:8000/people/?name_01=Bonnie%20Bass&name_02=Rosemary%20Hayes
+(Here name_01 and name_02 represent names of two people)
 
 ### Scenerio 03 - Given 1 people, provide a list of fruits and vegetables they like. This endpoint must respect this interface for the output: {"username": "Ahi", "age": "30", "fruits": ["banana", "apple"], "vegetables": ["beetroot", "lettuce"]}.
 
 Run this url in browser: http://127.0.0.1:8000/food/921?
+(Here 921 represents index id for a person)
 
 ### Alternatively try Interactive API docs- 
 Go to URL: http://127.0.0.1:8000/docs.
