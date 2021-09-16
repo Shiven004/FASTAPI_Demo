@@ -33,6 +33,10 @@ emp_name_list, index_list, company_id_list = [], [], []
 fav_food_list,company_name_list = [], []
 
 #Read Operations - people.json
+"""
+Function name : readJsonPeople
+Purpose: This functins reads people's data from people.json stored in resource directory.
+"""
 def readJsonPeople(dir_path,filename_people):
     #People json deserialize op    
     with open(dir_path + filename_people, "r") as read_file:
@@ -41,6 +45,10 @@ def readJsonPeople(dir_path,filename_people):
 
    
 #Read Operations - companies.json
+"""
+Function name : readJsonPeople
+Purpose: This functins reads companies data from companies.json stored in resource directory.
+"""
 def readJsonCompany(dir_path,filename_company):
     #Company json deserialize operation
     with open(dir_path + filename_company, "r") as read_file:
