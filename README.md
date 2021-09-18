@@ -1,2 +1,2 @@
-# UKUFU
-Ukufu Repository to maintain tech test code and related documentations.
+# FastAPI
+FastAPi Repository to maintain tech test code and related documentations.
